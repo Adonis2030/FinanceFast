@@ -1,0 +1,28 @@
+@import url("../../assets/styles/satoshi.css");
+
+.logo-txt {
+  color: #1a1a1a;
+  font-family: "Satoshi-Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.menu-txt {
+  color: #3a3a3a;
+  font-family: "Satoshi-Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button-txt {
+  color: #000;
+  font-family: "Satoshi-Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

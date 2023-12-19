@@ -1,0 +1,11 @@
+@import url("../../../assets/styles/satoshi.css");
+
+.download-txt {
+  color: #fff;
+  text-align: center;
+  font-family: "Satoshi-light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
