@@ -6,6 +6,9 @@ module.exports = {
       spacing: {
         22: "88px",
       },
+      width: {
+        500: "500px",
+      },
     },
   },
   plugins: [],

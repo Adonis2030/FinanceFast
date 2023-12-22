@@ -1,5 +1,6 @@
-import "./index.css";
-import Button from "../../components/common/Button";
+import "../../index.css";
+import Input from "../../components/common/Input";
+import Clients from "../../components/Clients";
 
 const HomePage: React.FC = () => {
   return (
@@ -15,7 +16,9 @@ const HomePage: React.FC = () => {
         confidence and ease.
       </p>
       <div className="mt-10" />
-      <Button>Download Now</Button>
+      <Input />
+      <div className="mt-36 mb-1" />
+      <Clients />
     </>
   );
 };

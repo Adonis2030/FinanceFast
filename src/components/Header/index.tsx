@@ -1,5 +1,4 @@
-import React from "react";
-import "./index.css";
+import "../../index.css";
 import Logo from "../../assets/images/logo.svg";
 import DownloadImg from "../../assets/images/download.svg";
 
@@ -41,23 +40,23 @@ const Header: React.FC = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
             <li>
-              <a href="/blog" className="block py-3 px-6 menu-txt">
+              <a href="/" className="block py-3 px-6 menu-txt">
                 Blog
               </a>
             </li>
             <li>
-              <a href="/company" className="block py-3 px-6 menu-txt">
+              <a href="/" className="block py-3 px-6 menu-txt">
                 Company
               </a>
             </li>
             <li>
-              <a href="/products" className="block py-3 px-6 menu-txt">
+              <a href="/" className="block py-3 px-6 menu-txt">
                 Products
               </a>
             </li>
             <li>
               <a
-                href="/download"
+                href="/"
                 className="block py-3 px-6 text-gray-900 rounded-full bg-[#D8C6FF] button-txt"
               >
                 <img
