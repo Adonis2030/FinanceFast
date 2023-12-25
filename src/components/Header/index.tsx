@@ -6,12 +6,11 @@ const Header: React.FC = () => {
   return (
     <nav className="bg-white pt-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={Logo} className="h-6" alt="Flowbite Logo" />
-          <span className="logo-txt">FinanceFast</span>
+          <span className="text-[#1a1a1a] text-2xl leading-normal font-medium font-satoshiVariable">
+            FinanceFast
+          </span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -40,24 +39,33 @@ const Header: React.FC = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
             <li>
-              <a href="/" className="block py-3 px-6 menu-txt">
+              <a
+                href="/"
+                className="block py-3 px-6 text-[#3a3a3a] text-base font-normal leading-normal"
+              >
                 Blog
               </a>
             </li>
             <li>
-              <a href="/" className="block py-3 px-6 menu-txt">
+              <a
+                href="/"
+                className="block py-3 px-6 text-[#3a3a3a] text-base font-normal leading-normal"
+              >
                 Company
               </a>
             </li>
             <li>
-              <a href="/" className="block py-3 px-6 menu-txt">
+              <a
+                href="/"
+                className="block py-3 px-6 text-[#3a3a3a] text-base font-normal leading-normal"
+              >
                 Products
               </a>
             </li>
             <li>
               <a
                 href="/"
-                className="block py-3 px-6 text-gray-900 rounded-full bg-[#D8C6FF] button-txt"
+                className="block py-3 px-6 rounded-full bg-[#D8C6FF] text-[#000] text-lg leading-normal font-medium"
               >
                 <img
                   src={DownloadImg}

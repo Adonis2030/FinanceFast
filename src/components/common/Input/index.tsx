@@ -140,7 +140,7 @@ const Input: React.FC = () => {
             type="text"
             id="phone-input"
             aria-describedby="helper-text-explanation"
-            className="block py-5 px-2 w-full z-20 input-txt rounded-full rounded-tl-none rounded-bl-none dark:placeholder-gray-400 outline-none"
+            className="block py-5 px-2 w-full z-20 text-[#1a1a1a] text-lg font-normal leading-normal font-satoshiLight rounded-full rounded-tl-none rounded-bl-none dark:placeholder-gray-400 outline-none"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             placeholder="123-456-7890"
             defaultValue="+1 "

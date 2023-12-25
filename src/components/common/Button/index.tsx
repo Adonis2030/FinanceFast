@@ -19,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       type={type}
-      className={`btn rounded-full bg-[#563ACC] download-txt ${className}`}
+      className={`btn rounded-full bg-[#563ACC] text-[#ffff] text-lg text-center font-medium leading-normal font-satoshiVariable ${className}`}
       onClick={onClick}
       disabled={disabled}
       {...props}

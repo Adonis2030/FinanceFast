@@ -9,7 +9,7 @@ const App: React.FC = () => {
     <div className="App bg-[#F9F9F9]">
       <main>
         <Header />
-        <div className="mb-36 mt-2" />
+        <div className="mb-36 mt-2 max-md:mb-20" />
         <HomePage />
       </main>
     </div>

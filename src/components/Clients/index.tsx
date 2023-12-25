@@ -16,7 +16,7 @@ const Clients: React.FC = () => {
       </div>
       <div className="flex flex-wrap bg-[#E5DBFB]">
         <div className="w-full md:w-full lg:w-1/3 sm:w-full p-2">
-          <p className="md:py-14 md:pl-22 md:pr-20 sm:pt-6 sm:pb-2 sm:px-8 px-6 py-4 text-md font-medium">
+          <p className="md:py-14 md:pl-22 md:pr-20 sm:pt-6 sm:pb-2 sm:px-8 px-6 py-4 text-base font-medium font-satoshiVariable">
             We're have been recognized by Leading Finance Publications and
             Organizations.
           </p>
